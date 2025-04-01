@@ -35,18 +35,10 @@ lane :update_paywall_templates do |options|
   if has_changes
     commit_and_push(
       branch_name: branch_name,
-      commit_message: "[Automated] Updates offerings_paywalls_v2_templates.json."
-    )
-
-    create_pr_if_necessary(
-      branch_name: branch_name,
-      title: "[AUTOMATIC][Paywalls V2] Updates Compose previews of all templates",
-      body: "This is an automatic update of the Compose previews of all templates.",
-      labels: ["pr:other"],
-      team_reviewers: ["coresdk", "monetization"]
+      commit_message: "[Automated] Updates paywall template resources."
     )
   else
-    UI.message("No changes detected in templates file, skipping PR creation")
+    UI.message("No changes detected in templates file, skipping commit")
   end
 end
 
