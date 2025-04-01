@@ -42,6 +42,20 @@ lane :update_paywall_templates do |options|
   end
 end
 
+desc "Triggers downstream updates"
+lane :trigger_downstream_updates do |options|
+  repo_name = options[:repo_name]
+
+  trigger_circleci_pipeline(
+    repo_name: repo_name,
+    branch: "main",
+    parameters: {
+      "action" => "update_paywall_templates",
+    }
+  )
+
+end
+
 private_lane :create_or_checkout_branch do |options|
   branch_name = options[:branch_name] || UI.user_error!("No branch name provided")
 
@@ -193,5 +207,44 @@ private_lane :commit_and_push do |options|
       sh("git", "commit", "-m", commit_message)
       sh("git", "push", "-u", "origin", branch_name)
     end
+  end
+end
+
+desc "Trigger a CircleCI pipeline"
+private_lane :trigger_circleci_pipeline do |options|
+  repo_name = options[:repo_name] || UI.user_error!("No repo_name provided")
+  api_key = ENV["CIRCLECI_TOKEN"] || UI.user_error!("Missing CIRCLECI_TOKEN environment variable")
+  branch = options[:branch] || "main"
+  parameters = options[:parameters] || {}  
+
+  UI.message("Triggering pipeline in #{repo_name}")
+
+  require 'net/http'
+  require 'uri'
+  require 'json'
+
+  uri = URI.parse("https://circleci.com/api/v2/project/github/RevenueCat/#{repo_name}/pipeline")
+  request = Net::HTTP::Post.new(uri)
+  request.basic_auth(api_key, "")
+  request.content_type = "application/json"
+  request.body = JSON.dump({
+    "branch" => branch,
+    "parameters" => parameters
+  })
+
+  req_options = {
+    use_ssl: uri.scheme == "https",
+  }
+
+  response = Net::HTTP.start(uri.hostname, uri.port, req_options) do |http|
+    http.request(request)
+  end
+
+  if response.code != "201"
+    error_body = JSON.parse(response.body)
+    error_message = error_body["message"]
+    UI.error("Error triggering the pipeline.")
+    UI.error("Response code: #{response.code}")
+    UI.error("Error message: #{error_message}")
   end
 end

@@ -21,6 +21,14 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 Updates offerings_paywalls_v2_templates.json and resources
 
+### trigger_downstream_updates
+
+```sh
+[bundle exec] fastlane trigger_downstream_updates
+```
+
+Triggers downstream updates
+
 ----
 
 This README.md is auto-generated and will be re-generated every time [_fastlane_](https://fastlane.tools) is run.
