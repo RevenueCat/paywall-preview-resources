@@ -1,0 +1,31 @@
+version: 2.1
+orbs:
+  revenuecat: revenuecat/sdks-common-config@3.0.0
+
+parameters:
+  action:
+    type: enum
+    enum: [default, update_paywall_templates]
+    default: default
+
+jobs:
+
+  update-paywall-templates:
+    docker:
+      - image: cimg/ruby:3.2.0
+    steps:
+      - checkout
+      - revenuecat/install-gem-unix-dependencies:
+          cache-version: v1
+      - revenuecat/setup-git-credentials
+      - run:
+          name: Update paywall templates
+          command: bundle exec fastlane android update_paywall_templates
+
+workflows:
+
+  update-paywall-templates:
+    when:
+      equal: [ update_paywall_templates, << pipeline.parameters.action >> ]
+    jobs:
+      - update-paywall-templates
