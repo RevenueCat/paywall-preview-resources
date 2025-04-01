@@ -27,6 +27,9 @@ jobs:
       - image: cimg/ruby:3.2.0
     steps:
       - checkout
+      - revenuecat/install-gem-unix-dependencies:
+          cache-version: v1
+      - revenuecat/setup-git-credentials
       - run:
           name: Trigger downstream updates in purchases-android
           command: bundle exec fastlane trigger_downstream_updates repo_name:purchases-android
