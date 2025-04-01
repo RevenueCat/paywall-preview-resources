@@ -21,8 +21,24 @@ jobs:
       - run:
           name: Update paywall templates
           command: bundle exec fastlane android update_paywall_templates
+  
+  trigger-downstream-updates:
+    docker:
+      - image: cimg/ruby:3.2.0
+    steps:
+      - checkout
+      - run:
+          name: Trigger downstream updates
+          command: echo "Hello world"
 
 workflows:
+
+  on-main-branch:
+    when:
+      and:
+        - equal: [ << pipeline.git.branch >> , main ]
+    jobs:
+      - trigger-downstream-updates
 
   update-paywall-templates:
     when:
