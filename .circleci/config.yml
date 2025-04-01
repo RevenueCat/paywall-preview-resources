@@ -20,7 +20,7 @@ jobs:
       - revenuecat/setup-git-credentials
       - run:
           name: Update paywall templates
-          command: bundle exec fastlane android update_paywall_templates
+          command: bundle exec fastlane update_paywall_templates
   
   trigger-downstream-updates:
     docker:
@@ -37,11 +37,12 @@ workflows:
     when:
       and:
         - equal: [ << pipeline.git.branch >> , main ]
+        - equal: [ << pipeline.parameters.action >> , default ]
     jobs:
       - trigger-downstream-updates
 
   update-paywall-templates:
     when:
-      equal: [ update_paywall_templates, << pipeline.parameters.action >> ]
+      equal: [ << pipeline.parameters.action >>, update_paywall_templates ]
     jobs:
       - update-paywall-templates
