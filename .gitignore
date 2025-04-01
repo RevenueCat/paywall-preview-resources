@@ -2,3 +2,6 @@
 
 fastlane/report.xml
 fastlane/.env
+
+vendor/
+.bundle/
