@@ -37365,11 +37365,12 @@
               "value": {
                 "light": {
                   "type": "hex",
-                  "value": "#0B0C20ff"
+                  "value": "#0b0c20ff"
                 }
               }
             },
             "stack": {
+              "background": null,
               "background_color": null,
               "badge": null,
               "border": null,
@@ -37477,781 +37478,551 @@
                   "type": "text"
                 },
                 {
-                  "background_color": null,
-                  "badge": null,
-                  "border": null,
-                  "components": [
+                  "column_gutter": 16,
+                  "icon_alignment": "title",
+                  "id": "sQLmGKBJCp",
+                  "item_spacing": 24,
+                  "items": [
                     {
-                      "background_color": null,
-                      "badge": null,
-                      "border": null,
-                      "components": [
-                        {
-                          "base_url": "https://icons.pawwalls.com/icons",
+                      "connector": {
+                        "color": {
+                          "light": {
+                            "type": "hex",
+                            "value": "#E5E5E5ff"
+                          }
+                        },
+                        "margin": {
+                          "bottom": 0,
+                          "top": 0
+                        },
+                        "width": 8
+                      },
+                      "description": {
+                        "background_color": null,
+                        "color": {
+                          "light": {
+                            "type": "hex",
+                            "value": "#ffffffcc"
+                          }
+                        },
+                        "font_name": null,
+                        "font_size": 14,
+                        "font_weight": "regular",
+                        "horizontal_alignment": "leading",
+                        "id": "7w5zqP-IuI",
+                        "margin": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "name": "Description",
+                        "padding": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "size": {
+                          "height": {
+                            "type": "fit",
+                            "value": null
+                          },
+                          "width": {
+                            "type": "fit",
+                            "value": null
+                          }
+                        },
+                        "text_lid": "IlhCcO7z4E",
+                        "type": "text"
+                      },
+                      "icon": {
+                        "base_url": "https://icons.pawwalls.com/icons",
+                        "color": {
+                          "light": {
+                            "type": "hex",
+                            "value": "#000000ff"
+                          }
+                        },
+                        "formats": {
+                          "heic": "filled-lock.heic",
+                          "png": "filled-lock.png",
+                          "svg": "filled-lock.svg",
+                          "webp": "filled-lock.webp"
+                        },
+                        "icon_background": {
                           "color": {
                             "light": {
                               "type": "hex",
-                              "value": "#010101FF"
+                              "value": "#b88ae7ff"
                             }
                           },
-                          "formats": {
-                            "heic": "filled-lock.heic",
-                            "png": "filled-lock.png",
-                            "svg": "filled-lock.svg",
-                            "webp": "filled-lock.webp"
-                          },
-                          "icon_background": {
-                            "color": {
-                              "light": {
-                                "type": "hex",
-                                "value": "#b88ae7FF"
-                              }
-                            },
-                            "shape": {
-                              "corners": null,
-                              "type": "circle"
-                            }
-                          },
-                          "icon_name": "filled-lock",
-                          "id": "U2gwDc_K5c",
-                          "margin": {
-                            "bottom": 0,
-                            "leading": 0,
-                            "top": 0,
-                            "trailing": 0
-                          },
-                          "name": "",
-                          "padding": {
-                            "bottom": 8,
-                            "leading": 8,
-                            "top": 8,
-                            "trailing": 8
-                          },
-                          "size": {
-                            "height": {
-                              "type": "fixed",
-                              "value": 34
-                            },
-                            "width": {
-                              "type": "fixed",
-                              "value": 34
-                            }
-                          },
-                          "type": "icon"
-                        },
-                        {
-                          "background_color": null,
-                          "badge": null,
-                          "border": null,
-                          "components": [
-                            {
-                              "background_color": null,
-                              "color": {
-                                "light": {
-                                  "type": "hex",
-                                  "value": "#ffffffff"
-                                }
-                              },
-                              "font_name": null,
-                              "font_size": 16,
-                              "font_weight": "semibold",
-                              "horizontal_alignment": "leading",
-                              "id": "P7neucKS8U",
-                              "margin": {
-                                "bottom": 0,
-                                "leading": 0,
-                                "top": 0,
-                                "trailing": 0
-                              },
-                              "name": "",
-                              "padding": {
-                                "bottom": 0,
-                                "leading": 0,
-                                "top": 0,
-                                "trailing": 0
-                              },
-                              "size": {
-                                "height": {
-                                  "type": "fit",
-                                  "value": null
-                                },
-                                "width": {
-                                  "type": "fit",
-                                  "value": null
-                                }
-                              },
-                              "text_lid": "bNyQipRgwp",
-                              "type": "text"
-                            },
-                            {
-                              "background_color": null,
-                              "color": {
-                                "light": {
-                                  "type": "hex",
-                                  "value": "#ffffffcc"
-                                }
-                              },
-                              "font_name": null,
-                              "font_size": 14,
-                              "font_weight": "regular",
-                              "horizontal_alignment": "leading",
-                              "id": "lGkQpIoZp1",
-                              "margin": {
-                                "bottom": 0,
-                                "leading": 0,
-                                "top": 0,
-                                "trailing": 0
-                              },
-                              "name": "",
-                              "padding": {
-                                "bottom": 0,
-                                "leading": 0,
-                                "top": 0,
-                                "trailing": 0
-                              },
-                              "size": {
-                                "height": {
-                                  "type": "fit",
-                                  "value": null
-                                },
-                                "width": {
-                                  "type": "fit",
-                                  "value": null
-                                }
-                              },
-                              "text_lid": "9kQbm2deq1",
-                              "type": "text"
-                            }
-                          ],
-                          "dimension": {
-                            "alignment": "leading",
-                            "distribution": "start",
-                            "type": "vertical"
-                          },
-                          "id": "mvA7RnoLWQ",
-                          "margin": {
-                            "bottom": 0,
-                            "leading": 0,
-                            "top": 0,
-                            "trailing": 0
-                          },
-                          "name": "",
-                          "padding": {
-                            "bottom": 0,
-                            "leading": 0,
-                            "top": 0,
-                            "trailing": 0
-                          },
-                          "shadow": null,
                           "shape": {
-                            "corners": {
-                              "bottom_leading": 0,
-                              "bottom_trailing": 0,
-                              "top_leading": 0,
-                              "top_trailing": 0
-                            },
-                            "type": "rectangle"
+                            "type": "circle"
+                          }
+                        },
+                        "icon_name": "filled-lock",
+                        "id": "zrLCNuuCL2",
+                        "margin": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "name": "Icon",
+                        "padding": {
+                          "bottom": 8,
+                          "leading": 8,
+                          "top": 8,
+                          "trailing": 8
+                        },
+                        "size": {
+                          "height": {
+                            "type": "fixed",
+                            "value": 36
                           },
-                          "size": {
-                            "height": {
-                              "type": "fit",
-                              "value": null
-                            },
-                            "width": {
-                              "type": "fill",
-                              "value": null
+                          "width": {
+                            "type": "fixed",
+                            "value": 36
+                          }
+                        },
+                        "type": "icon"
+                      },
+                      "id": "A8KZCajbZR",
+                      "name": "First item",
+                      "title": {
+                        "background_color": null,
+                        "color": {
+                          "light": {
+                            "type": "hex",
+                            "value": "#ffffffff"
+                          }
+                        },
+                        "font_name": null,
+                        "font_size": 16,
+                        "font_weight": "semibold",
+                        "horizontal_alignment": "leading",
+                        "id": "QTfNDjXeLi",
+                        "margin": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "name": "Title",
+                        "overrides": [
+                          {
+                            "conditions": [
+                              {
+                                "type": "intro_offer"
+                              }
+                            ],
+                            "properties": {
+                              "text_lid": "W31xrDKWDe"
                             }
+                          }
+                        ],
+                        "padding": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "size": {
+                          "height": {
+                            "type": "fit",
+                            "value": null
                           },
-                          "spacing": 8,
-                          "type": "stack"
-                        }
-                      ],
-                      "dimension": {
-                        "alignment": "top",
-                        "distribution": "start",
-                        "type": "horizontal"
-                      },
-                      "id": "6pgTU0LI9H",
-                      "margin": {
-                        "bottom": 0,
-                        "leading": 0,
-                        "top": 0,
-                        "trailing": 0
-                      },
-                      "name": "Step 1 Today",
-                      "padding": {
-                        "bottom": 0,
-                        "leading": 0,
-                        "top": 0,
-                        "trailing": 0
-                      },
-                      "shadow": null,
-                      "shape": {
-                        "corners": {
-                          "bottom_leading": 0,
-                          "bottom_trailing": 0,
-                          "top_leading": 0,
-                          "top_trailing": 0
+                          "width": {
+                            "type": "fit",
+                            "value": null
+                          }
                         },
-                        "type": "rectangle"
+                        "text_lid": "cUjfTT2Lki",
+                        "type": "text"
                       },
-                      "size": {
-                        "height": {
-                          "type": "fit",
-                          "value": null
-                        },
-                        "width": {
-                          "type": "fill",
-                          "value": null
-                        }
-                      },
-                      "spacing": 24,
-                      "type": "stack"
+                      "type": "timeline_item"
                     },
                     {
-                      "background_color": null,
-                      "badge": null,
-                      "border": null,
-                      "components": [
-                        {
-                          "base_url": "https://icons.pawwalls.com/icons",
+                      "connector": {
+                        "color": {
+                          "light": {
+                            "type": "hex",
+                            "value": "#E5E5E5ff"
+                          }
+                        },
+                        "margin": {
+                          "bottom": 0,
+                          "top": 0
+                        },
+                        "width": 8
+                      },
+                      "description": {
+                        "background_color": null,
+                        "color": {
+                          "light": {
+                            "type": "hex",
+                            "value": "#ffffffcc"
+                          }
+                        },
+                        "font_name": null,
+                        "font_size": 14,
+                        "font_weight": "regular",
+                        "horizontal_alignment": "leading",
+                        "id": "YjuZf9ZXC4",
+                        "margin": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "name": "Description",
+                        "overrides": [
+                          {
+                            "conditions": [
+                              {
+                                "type": "intro_offer"
+                              }
+                            ],
+                            "properties": {
+                              "text_lid": "j9Zpp18aqp"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "size": {
+                          "height": {
+                            "type": "fit",
+                            "value": null
+                          },
+                          "width": {
+                            "type": "fit",
+                            "value": null
+                          }
+                        },
+                        "text_lid": "MfrRg78g_n",
+                        "type": "text"
+                      },
+                      "icon": {
+                        "base_url": "https://icons.pawwalls.com/icons",
+                        "color": {
+                          "light": {
+                            "type": "hex",
+                            "value": "#000000ff"
+                          }
+                        },
+                        "formats": {
+                          "heic": "filled-bell.heic",
+                          "png": "filled-bell.png",
+                          "svg": "filled-bell.svg",
+                          "webp": "filled-bell.webp"
+                        },
+                        "icon_background": {
                           "color": {
                             "light": {
                               "type": "hex",
-                              "value": "#020202FF"
+                              "value": "#b88ae7ff"
                             }
                           },
-                          "formats": {
-                            "heic": "filled-bell.heic",
-                            "png": "filled-bell.png",
-                            "svg": "filled-bell.svg",
-                            "webp": "filled-bell.webp"
-                          },
-                          "icon_background": {
-                            "color": {
-                              "light": {
-                                "type": "hex",
-                                "value": "#b689edFF"
-                              }
-                            },
-                            "shape": {
-                              "corners": null,
-                              "type": "circle"
-                            }
-                          },
-                          "icon_name": "filled-bell",
-                          "id": "Q4DAa70-I2",
-                          "margin": {
-                            "bottom": 0,
-                            "leading": 0,
-                            "top": 0,
-                            "trailing": 0
-                          },
-                          "name": "",
-                          "padding": {
-                            "bottom": 8,
-                            "leading": 8,
-                            "top": 8,
-                            "trailing": 8
-                          },
-                          "size": {
-                            "height": {
-                              "type": "fixed",
-                              "value": 34
-                            },
-                            "width": {
-                              "type": "fixed",
-                              "value": 34
-                            }
-                          },
-                          "type": "icon"
-                        },
-                        {
-                          "background_color": null,
-                          "badge": null,
-                          "border": null,
-                          "components": [
-                            {
-                              "background_color": null,
-                              "color": {
-                                "light": {
-                                  "type": "hex",
-                                  "value": "#ffffffff"
-                                }
-                              },
-                              "font_name": null,
-                              "font_size": 16,
-                              "font_weight": "semibold",
-                              "horizontal_alignment": "leading",
-                              "id": "y8FnomO7i4",
-                              "margin": {
-                                "bottom": 0,
-                                "leading": 0,
-                                "top": 0,
-                                "trailing": 0
-                              },
-                              "name": "",
-                              "overrides": [
-                                {
-                                  "conditions": [
-                                    {
-                                      "type": "intro_offer"
-                                    }
-                                  ],
-                                  "properties": {
-                                    "text_lid": "KIbWx_FtI2"
-                                  }
-                                }
-                              ],
-                              "padding": {
-                                "bottom": 0,
-                                "leading": 0,
-                                "top": 0,
-                                "trailing": 0
-                              },
-                              "size": {
-                                "height": {
-                                  "type": "fit",
-                                  "value": null
-                                },
-                                "width": {
-                                  "type": "fit",
-                                  "value": null
-                                }
-                              },
-                              "text_lid": "PI8KcY-axn",
-                              "type": "text"
-                            },
-                            {
-                              "background_color": null,
-                              "color": {
-                                "light": {
-                                  "type": "hex",
-                                  "value": "#ffffffcc"
-                                }
-                              },
-                              "font_name": null,
-                              "font_size": 14,
-                              "font_weight": "regular",
-                              "horizontal_alignment": "leading",
-                              "id": "4vSYT_HFWc",
-                              "margin": {
-                                "bottom": 0,
-                                "leading": 0,
-                                "top": 0,
-                                "trailing": 0
-                              },
-                              "name": "",
-                              "overrides": [
-                                {
-                                  "conditions": [
-                                    {
-                                      "type": "intro_offer"
-                                    }
-                                  ],
-                                  "properties": {
-                                    "text_lid": "chqjel_f3q"
-                                  }
-                                }
-                              ],
-                              "padding": {
-                                "bottom": 0,
-                                "leading": 0,
-                                "top": 0,
-                                "trailing": 0
-                              },
-                              "size": {
-                                "height": {
-                                  "type": "fit",
-                                  "value": null
-                                },
-                                "width": {
-                                  "type": "fit",
-                                  "value": null
-                                }
-                              },
-                              "text_lid": "bfOTPchbdf",
-                              "type": "text"
-                            }
-                          ],
-                          "dimension": {
-                            "alignment": "leading",
-                            "distribution": "start",
-                            "type": "vertical"
-                          },
-                          "id": "H0AA5EAqx_",
-                          "margin": {
-                            "bottom": 0,
-                            "leading": 0,
-                            "top": 0,
-                            "trailing": 0
-                          },
-                          "name": "",
-                          "padding": {
-                            "bottom": 0,
-                            "leading": 0,
-                            "top": 0,
-                            "trailing": 0
-                          },
-                          "shadow": null,
                           "shape": {
-                            "corners": {
-                              "bottom_leading": 0,
-                              "bottom_trailing": 0,
-                              "top_leading": 0,
-                              "top_trailing": 0
-                            },
-                            "type": "rectangle"
+                            "type": "circle"
+                          }
+                        },
+                        "icon_name": "filled-bell",
+                        "id": "TqV2-cfF13",
+                        "margin": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "name": "Icon",
+                        "padding": {
+                          "bottom": 8,
+                          "leading": 8,
+                          "top": 8,
+                          "trailing": 8
+                        },
+                        "size": {
+                          "height": {
+                            "type": "fixed",
+                            "value": 36
                           },
-                          "size": {
-                            "height": {
-                              "type": "fit",
-                              "value": null
-                            },
-                            "width": {
-                              "type": "fill",
-                              "value": null
+                          "width": {
+                            "type": "fixed",
+                            "value": 36
+                          }
+                        },
+                        "type": "icon"
+                      },
+                      "id": "VLjDDlBEGF",
+                      "name": "Second item",
+                      "title": {
+                        "background_color": null,
+                        "color": {
+                          "light": {
+                            "type": "hex",
+                            "value": "#ffffffff"
+                          }
+                        },
+                        "font_name": null,
+                        "font_size": 16,
+                        "font_weight": "semibold",
+                        "horizontal_alignment": "leading",
+                        "id": "ChPoTDOD2T",
+                        "margin": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "name": "Title",
+                        "overrides": [
+                          {
+                            "conditions": [
+                              {
+                                "type": "intro_offer"
+                              }
+                            ],
+                            "properties": {
+                              "text_lid": "tbQEY2DUqc"
                             }
+                          }
+                        ],
+                        "padding": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "size": {
+                          "height": {
+                            "type": "fit",
+                            "value": null
                           },
-                          "spacing": 8,
-                          "type": "stack"
-                        }
-                      ],
-                      "dimension": {
-                        "alignment": "top",
-                        "distribution": "start",
-                        "type": "horizontal"
-                      },
-                      "id": "mFBI4fQXAW",
-                      "margin": {
-                        "bottom": 0,
-                        "leading": 0,
-                        "top": 0,
-                        "trailing": 0
-                      },
-                      "name": "Step 2 Day 5",
-                      "padding": {
-                        "bottom": 0,
-                        "leading": 0,
-                        "top": 0,
-                        "trailing": 0
-                      },
-                      "shadow": null,
-                      "shape": {
-                        "corners": {
-                          "bottom_leading": 0,
-                          "bottom_trailing": 0,
-                          "top_leading": 0,
-                          "top_trailing": 0
+                          "width": {
+                            "type": "fit",
+                            "value": null
+                          }
                         },
-                        "type": "rectangle"
+                        "text_lid": "oJJ2JTysHO",
+                        "type": "text"
                       },
-                      "size": {
-                        "height": {
-                          "type": "fit",
-                          "value": null
-                        },
-                        "width": {
-                          "type": "fill",
-                          "value": null
-                        }
-                      },
-                      "spacing": 24,
-                      "type": "stack"
+                      "type": "timeline_item"
                     },
                     {
-                      "background_color": null,
-                      "badge": null,
-                      "border": null,
-                      "components": [
-                        {
-                          "base_url": "https://icons.pawwalls.com/icons",
+                      "connector": {
+                        "color": {
+                          "light": {
+                            "degrees": 0,
+                            "points": [
+                              {
+                                "color": "#85cdf500",
+                                "percent": 0
+                              },
+                              {
+                                "color": "#85cdf5ff",
+                                "percent": 100
+                              }
+                            ],
+                            "type": "linear"
+                          }
+                        },
+                        "margin": {
+                          "bottom": 0,
+                          "top": 0
+                        },
+                        "width": 8
+                      },
+                      "description": {
+                        "background_color": null,
+                        "color": {
+                          "light": {
+                            "type": "hex",
+                            "value": "#ffffffcc"
+                          }
+                        },
+                        "font_name": null,
+                        "font_size": 14,
+                        "font_weight": "regular",
+                        "horizontal_alignment": "leading",
+                        "id": "4sBQkz265u",
+                        "margin": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "name": "Description",
+                        "overrides": [
+                          {
+                            "conditions": [
+                              {
+                                "type": "intro_offer"
+                              }
+                            ],
+                            "properties": {
+                              "text_lid": "dDHJyrTR_d"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "size": {
+                          "height": {
+                            "type": "fit",
+                            "value": null
+                          },
+                          "width": {
+                            "type": "fit",
+                            "value": null
+                          }
+                        },
+                        "text_lid": "Izo6Aj61rv",
+                        "type": "text"
+                      },
+                      "icon": {
+                        "base_url": "https://icons.pawwalls.com/icons",
+                        "color": {
+                          "light": {
+                            "type": "hex",
+                            "value": "#000000ff"
+                          }
+                        },
+                        "formats": {
+                          "heic": "filled-star.heic",
+                          "png": "filled-star.png",
+                          "svg": "filled-star.svg",
+                          "webp": "filled-star.webp"
+                        },
+                        "icon_background": {
                           "color": {
                             "light": {
                               "type": "hex",
-                              "value": "#010101FF"
+                              "value": "#85cdf5ff"
                             }
                           },
-                          "formats": {
-                            "heic": "filled-star.heic",
-                            "png": "filled-star.png",
-                            "svg": "filled-star.svg",
-                            "webp": "filled-star.webp"
-                          },
-                          "icon_background": {
-                            "color": {
-                              "light": {
-                                "type": "hex",
-                                "value": "#85cdf5FF"
-                              }
-                            },
-                            "shape": {
-                              "corners": null,
-                              "type": "circle"
-                            }
-                          },
-                          "icon_name": "filled-star",
-                          "id": "LZ8cTzXIQ-",
-                          "margin": {
-                            "bottom": 0,
-                            "leading": 0,
-                            "top": 0,
-                            "trailing": 0
-                          },
-                          "name": "",
-                          "padding": {
-                            "bottom": 8,
-                            "leading": 8,
-                            "top": 8,
-                            "trailing": 8
-                          },
-                          "size": {
-                            "height": {
-                              "type": "fixed",
-                              "value": 34
-                            },
-                            "width": {
-                              "type": "fixed",
-                              "value": 34
-                            }
-                          },
-                          "type": "icon"
-                        },
-                        {
-                          "background_color": null,
-                          "badge": null,
-                          "border": null,
-                          "components": [
-                            {
-                              "background_color": null,
-                              "color": {
-                                "light": {
-                                  "type": "hex",
-                                  "value": "#ffffffff"
-                                }
-                              },
-                              "font_name": null,
-                              "font_size": 16,
-                              "font_weight": "semibold",
-                              "horizontal_alignment": "leading",
-                              "id": "aiKIiXvMJf",
-                              "margin": {
-                                "bottom": 0,
-                                "leading": 0,
-                                "top": 0,
-                                "trailing": 0
-                              },
-                              "name": "",
-                              "overrides": [
-                                {
-                                  "conditions": [
-                                    {
-                                      "type": "intro_offer"
-                                    }
-                                  ],
-                                  "properties": {
-                                    "text_lid": "6tYAi0Fe2P"
-                                  }
-                                }
-                              ],
-                              "padding": {
-                                "bottom": 0,
-                                "leading": 0,
-                                "top": 0,
-                                "trailing": 0
-                              },
-                              "size": {
-                                "height": {
-                                  "type": "fit",
-                                  "value": null
-                                },
-                                "width": {
-                                  "type": "fit",
-                                  "value": null
-                                }
-                              },
-                              "text_lid": "Xtd5JEA8S1",
-                              "type": "text"
-                            },
-                            {
-                              "background_color": null,
-                              "color": {
-                                "light": {
-                                  "type": "hex",
-                                  "value": "#ffffffcc"
-                                }
-                              },
-                              "font_name": null,
-                              "font_size": 14,
-                              "font_weight": "regular",
-                              "horizontal_alignment": "leading",
-                              "id": "lFBdlHVdAO",
-                              "margin": {
-                                "bottom": 0,
-                                "leading": 0,
-                                "top": 0,
-                                "trailing": 0
-                              },
-                              "name": "",
-                              "overrides": [
-                                {
-                                  "conditions": [
-                                    {
-                                      "type": "intro_offer"
-                                    }
-                                  ],
-                                  "properties": {
-                                    "text_lid": "2AIFfoDG-G"
-                                  }
-                                }
-                              ],
-                              "padding": {
-                                "bottom": 0,
-                                "leading": 0,
-                                "top": 0,
-                                "trailing": 0
-                              },
-                              "size": {
-                                "height": {
-                                  "type": "fit",
-                                  "value": null
-                                },
-                                "width": {
-                                  "type": "fit",
-                                  "value": null
-                                }
-                              },
-                              "text_lid": "sgKimW-Ovf",
-                              "type": "text"
-                            }
-                          ],
-                          "dimension": {
-                            "alignment": "leading",
-                            "distribution": "start",
-                            "type": "vertical"
-                          },
-                          "id": "hF9ZQcV49_",
-                          "margin": {
-                            "bottom": 0,
-                            "leading": 0,
-                            "top": 0,
-                            "trailing": 0
-                          },
-                          "name": "",
-                          "padding": {
-                            "bottom": 0,
-                            "leading": 0,
-                            "top": 0,
-                            "trailing": 0
-                          },
-                          "shadow": null,
                           "shape": {
-                            "corners": {
-                              "bottom_leading": 0,
-                              "bottom_trailing": 0,
-                              "top_leading": 0,
-                              "top_trailing": 0
-                            },
-                            "type": "rectangle"
+                            "type": "circle"
+                          }
+                        },
+                        "icon_name": "filled-star",
+                        "id": "YE9kOmzfl4",
+                        "margin": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "name": "Icon",
+                        "padding": {
+                          "bottom": 8,
+                          "leading": 8,
+                          "top": 8,
+                          "trailing": 8
+                        },
+                        "size": {
+                          "height": {
+                            "type": "fixed",
+                            "value": 36
                           },
-                          "size": {
-                            "height": {
-                              "type": "fit",
-                              "value": null
-                            },
-                            "width": {
-                              "type": "fill",
-                              "value": null
+                          "width": {
+                            "type": "fixed",
+                            "value": 36
+                          }
+                        },
+                        "type": "icon"
+                      },
+                      "id": "EBRYeEuQya",
+                      "name": "Third item",
+                      "title": {
+                        "background_color": null,
+                        "color": {
+                          "light": {
+                            "type": "hex",
+                            "value": "#ffffffff"
+                          }
+                        },
+                        "font_name": null,
+                        "font_size": 16,
+                        "font_weight": "semibold",
+                        "horizontal_alignment": "leading",
+                        "id": "bjcfaZXH53",
+                        "margin": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "name": "Title",
+                        "overrides": [
+                          {
+                            "conditions": [
+                              {
+                                "type": "intro_offer"
+                              }
+                            ],
+                            "properties": {
+                              "text_lid": "oufyiuGcDP"
                             }
+                          }
+                        ],
+                        "padding": {
+                          "bottom": 0,
+                          "leading": 0,
+                          "top": 0,
+                          "trailing": 0
+                        },
+                        "size": {
+                          "height": {
+                            "type": "fit",
+                            "value": null
                           },
-                          "spacing": 8,
-                          "type": "stack"
-                        }
-                      ],
-                      "dimension": {
-                        "alignment": "top",
-                        "distribution": "start",
-                        "type": "horizontal"
-                      },
-                      "id": "eyzgXMsHoI",
-                      "margin": {
-                        "bottom": 0,
-                        "leading": 0,
-                        "top": 0,
-                        "trailing": 0
-                      },
-                      "name": "Step 3 Day 7",
-                      "padding": {
-                        "bottom": 0,
-                        "leading": 0,
-                        "top": 0,
-                        "trailing": 0
-                      },
-                      "shadow": null,
-                      "shape": {
-                        "corners": {
-                          "bottom_leading": 0,
-                          "bottom_trailing": 0,
-                          "top_leading": 0,
-                          "top_trailing": 0
+                          "width": {
+                            "type": "fit",
+                            "value": null
+                          }
                         },
-                        "type": "rectangle"
+                        "text_lid": "4OuLnBkm3H",
+                        "type": "text"
                       },
-                      "size": {
-                        "height": {
-                          "type": "fit",
-                          "value": null
-                        },
-                        "width": {
-                          "type": "fill",
-                          "value": null
-                        }
-                      },
-                      "spacing": 24,
-                      "type": "stack"
+                      "type": "timeline_item"
                     }
                   ],
-                  "dimension": {
-                    "alignment": "leading",
-                    "distribution": "start",
-                    "type": "vertical"
-                  },
-                  "id": "RZKn2HI-XK",
                   "margin": {
                     "bottom": 0,
-                    "leading": 0,
+                    "leading": 32,
                     "top": 0,
-                    "trailing": 0
+                    "trailing": 32
                   },
-                  "name": "Timeline steps",
+                  "name": "",
                   "padding": {
                     "bottom": 0,
                     "leading": 0,
                     "top": 0,
                     "trailing": 0
                   },
-                  "shadow": null,
-                  "shape": {
-                    "corners": {
-                      "bottom_leading": 0,
-                      "bottom_trailing": 0,
-                      "top_leading": 0,
-                      "top_trailing": 0
-                    },
-                    "type": "rectangle"
-                  },
                   "size": {
                     "height": {
-                      "type": "fixed",
-                      "value": 230
+                      "type": "fit",
+                      "value": null
                     },
                     "width": {
-                      "type": "fixed",
-                      "value": 310
+                      "type": "fill",
+                      "value": null
                     }
                   },
-                  "spacing": 24,
-                  "type": "stack"
+                  "text_spacing": 8,
+                  "type": "timeline"
                 }
               ],
               "dimension": {
@@ -38300,6 +38071,7 @@
               "id": "H7K2O8TH8j",
               "name": "",
               "stack": {
+                "background": null,
                 "background_color": null,
                 "badge": null,
                 "border": null,
@@ -38310,6 +38082,7 @@
                     "name": "",
                     "package_id": "$rc_annual",
                     "stack": {
+                      "background": null,
                       "background_color": null,
                       "badge": null,
                       "border": null,
@@ -38414,12 +38187,16 @@
                     "id": "IEDh4Rk7xN",
                     "name": "",
                     "stack": {
-                      "background_color": {
-                        "light": {
-                          "type": "hex",
-                          "value": "#954CCDff"
+                      "background": {
+                        "type": "color",
+                        "value": {
+                          "light": {
+                            "type": "hex",
+                            "value": "#954CCDff"
+                          }
                         }
                       },
+                      "background_color": null,
                       "badge": null,
                       "border": null,
                       "components": [
@@ -38520,6 +38297,7 @@
                     "id": "IrgULIC7Pm",
                     "name": "",
                     "stack": {
+                      "background": null,
                       "background_color": null,
                       "badge": null,
                       "border": null,
@@ -38649,27 +38427,28 @@
         },
         "components_localizations": {
           "en_US": {
-            "2AIFfoDG-G": "You will be charged on {{ product.offer_end_date }}, you can cancel anytime before.",
-            "6tYAi0Fe2P": "Day 7",
+            "4OuLnBkm3H": "Premium support",
             "905We9MD0e": "Restore purchases",
-            "9kQbm2deq1": "Unlock unlimited access to all of our +100 games.",
+            "IlhCcO7z4E": "Unlock unlimited access to all of our +100 games.",
+            "Izo6Aj61rv": "For your questions and feedback.",
             "KE5_IjxVHh": "Redeem my free {{ product.offer_period }}",
-            "KIbWx_FtI2": "Day 5",
-            "PI8KcY-axn": "Early releases",
+            "MfrRg78g_n": "Get notified when early releases are available to test.",
             "Q7LP62IQfo": "Unlock full access",
-            "Xtd5JEA8S1": "Premium support",
-            "bNyQipRgwp": "All games",
-            "bfOTPchbdf": "Get notified when early releases are available to test.",
+            "W31xrDKWDe": "All games",
+            "cUjfTT2Lki": "All games",
             "cglBvJAbWU": "How your free trial works",
-            "chqjel_f3q": "We'll remind you with an email that your trial is ending.",
+            "dDHJyrTR_d": "You will be charged on {{ product.offer_end_date }}, you can cancel anytime before.",
             "hNnk0o6Fee": "Free access for {{ product.offer_period_with_unit }}, then {{ product.price_per_period }} ({{ product.price_per_month }}/mo)",
+            "j9Zpp18aqp": "We'll remind you with an email that your trial is ending.",
+            "oJJ2JTysHO": "Early releases",
+            "oufyiuGcDP": "Day {{ product.offer_period_in_days }}",
             "rotSVmNhoe": "Only {{ product.price_per_period }} ({{ product.price_per_month }}/mo)",
-            "sgKimW-Ovf": "For your questions and feedback.",
+            "tbQEY2DUqc": "Day 5",
             "xMjVVlM27n": "Continue"
           }
         },
         "default_locale": "en_US",
-        "revision": 40,
+        "revision": 45,
         "template_name": "components",
         "zero_decimal_place_countries": {
           "apple": [
@@ -41200,7 +40979,8 @@
       "description": "template_022",
       "identifier": "template_022",
       "metadata": null,
-      "packages": []
+      "packages": [],
+      "paywall_components": null
     },
     {
       "description": "template_023",
